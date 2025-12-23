@@ -1,0 +1,13 @@
+{
+  "name": "playwright-sqa-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:edge": "playwright test --project=Edge --headed",
+    "test:chrome": "playwright test --project=Chrome --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
